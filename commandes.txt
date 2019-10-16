@@ -5,4 +5,4 @@
 
 	- docker-compose up --build -d
 	- docker build -t dockersanta .
-	- docker run -ti -p 8085:80 --name aure3 -v /Users/auresanta/Docker_ASANTANA:/var/www/html filesanta
+	- docker run -ti -p 8085:80 --name aure3 -v /Users/auresanta/Docker_ASANTANA:/var/www/html dockersanta
