@@ -18,3 +18,9 @@ Durant votre présentation, vous devrez :
 - expliquer les fichiers Docker et l'architecture Docker que vous avez créée,
 - lancer l'environnement pour nous montrer les containers créés et,
 - montrer que le site fonctionne.
+
+COMMANDES UTILISÉES :
+
+docker build -t webservice .
+docker-compose up --build -d
+docker-compose up
