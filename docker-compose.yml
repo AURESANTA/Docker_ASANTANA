@@ -27,7 +27,7 @@ services:
     ports:
       - "8085:80"
     volumes: 
-      - "./var/www/html"
+      - .:/var/www/html
     depends_on:
       - mariadb
       - mailhog
